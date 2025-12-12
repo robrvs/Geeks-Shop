@@ -180,7 +180,7 @@
             transform: scale(1.1);
         }
 
-        .discount-badge {
+        .cartao-desconto {
             position: absolute;
             top: 15px;
             right: 15px;
@@ -220,25 +220,25 @@
             font-size: 14px;
         }
 
-        .product-info {
+        .info-produto {
             margin: 15px 0;
             line-height: 1.6;
             color: #555;
             font-size: 14px;
         }
 
-        .price-section {
+        .secao-preco {
             margin: 20px 0;
         }
 
-        .old-price {
+        .preco-antigo {
             color: #999;
             text-decoration: line-through;
             font-size: 16px;
             margin-right: 10px;
         }
 
-        .current-price {
+        .preco-atual {
             font-size: 32px;
             color: #e94560;
             font-weight: bold;
