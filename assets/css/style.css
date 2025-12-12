@@ -81,7 +81,7 @@
             gap: 15px;
         }
 
-        .btn-login, .btn-signup {
+        .botao-login, .botao-cadastrar {
             padding: 10px 25px;
             border: none;
             border-radius: 25px;
@@ -91,23 +91,23 @@
             transition: all 0.3s;
         }
 
-        .btn-login {
+        .botao-login {
             background: transparent;
             color: #e94560;
             border: 2px solid #e94560;
         }
 
-        .btn-login:hover {
+        .botao-login:hover {
             background: #e94560;
             color: #fff;
         }
 
-        .btn-signup {
+        .botao-cadastrar {
             background: linear-gradient(45deg, #e94560, #533483);
             color: #fff;
         }
 
-        .btn-signup:hover {
+        .botao-cadastrar:hover {
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
         }
@@ -162,7 +162,7 @@
             box-shadow: 0 15px 40px rgba(233, 69, 96, 0.4);
         }
 
-        .produtos-image-container {
+        .container-imagem-produtos {
             position: relative;
             overflow: hidden;
         }
@@ -244,7 +244,7 @@
             font-weight: bold;
         }
 
-        .stock {
+        .quant {
             background: #4ecdc4;
             color: white;
             padding: 6px 15px;
@@ -254,7 +254,7 @@
             margin: 10px 0;
         }
 
-        .btn-buy {
+        .botao-comprar {
             width: 100%;
             padding: 15px;
             background: linear-gradient(45deg, #e94560, #533483);
@@ -268,16 +268,16 @@
             margin-top: 15px;
         }
 
-        .btn-buy:hover {
+        .botao-comprar:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(233, 69, 96, 0.4);
         }
 
-        .btn-buy:active {
+        .botao-comprar:active {
             transform: translateY(0);
         }
 
-        .payment {
+        .pagto {
             background: rgba(15, 52, 96, 0.05);
             padding: 15px;
             border-radius: 10px;
@@ -285,24 +285,24 @@
             border-left: 4px solid #0f3460;
         }
 
-        .payment h4 {
+        .pagto h4 {
             color: #0f3460;
             margin-bottom: 8px;
             font-size: 14px;
         }
 
-        .payment ul {
+        .pagto ul {
             list-style: none;
             padding-left: 0;
         }
 
-        .payment li {
+        .pagto li {
             padding: 4px 0;
             color: #555;
             font-size: 13px;
         }
 
-        .payment li:before {
+        .pagto li:before {
             content: "✓ ";
             color: #4ecdc4;
             font-weight: bold;
