@@ -10,6 +10,13 @@
             color: #fff;
         }
 
+        body p {
+            font-style: bold;
+            color: #e94560;
+            font-weight: bold;
+            margin-inline: 10vh;
+        }
+
         /* Navbar Superior */
         .navbar {
             background: #0f3460;
