@@ -1,3 +1,4 @@
+        /* Remove todas as margens padrão que os navegadores aplicam aos elementos. */
         * {
             margin: 0;
             padding: 0;
