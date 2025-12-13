@@ -215,42 +215,42 @@
             gap: 8px;
             margin-bottom: 15px;
         }
-
+        /* Estilização das Estrelas das Avaliações */
         .estrelas {
             color: #ffa500;
             font-size: 18px;
             letter-spacing: 2px;
         }
-
+        /* Estilização da Pontuação das Estrelas e Contagem das Avaliações */
         .contar-avaliacao {
             color: #666;
             font-size: 14px;
         }
-
+        /* Descrição dos Produtos nos Cards */
         .info-produto {
             margin: 15px 0;
             line-height: 1.6;
             color: #555;
             font-size: 14px;
         }
-
+        /* Estilização dos Preços dos Produtos nos Cards */
         .secao-preco {
             margin: 20px 0;
         }
-
+        /* Estilização dos Preços Antigos dos Produtos nos Cards */
         .preco-antigo {
             color: #999;
             text-decoration: line-through;
             font-size: 16px;
             margin-right: 10px;
         }
-
+        /* Estilização dos Preços Atuais dos Produtos nos Cards */
         .preco-atual {
             font-size: 32px;
             color: #e94560;
             font-weight: bold;
         }
-
+        /* Estilização das Quantidades dos Produtos nos Cards */
         .quant {
             background: #4ecdc4;
             color: white;
@@ -260,7 +260,7 @@
             font-size: 13px;
             margin: 10px 0;
         }
-
+        /* Estilização dos Botões Adicionar ao Carrinho */
         .botao-comprar {
             width: 100%;
             padding: 15px;
@@ -274,7 +274,7 @@
             transition: all 0.3s;
             margin-top: 15px;
         }
-
+        /* Estilização dos Botões Adicionar ao Carrinho */
         .botao-comprar:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(233, 69, 96, 0.4);
