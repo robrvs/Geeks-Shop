@@ -1,4 +1,4 @@
-        /* Remove todas as margens padrão que os navegadores aplicam aos elementos. */
+        /* reseta todas as configurações padrão da Página de Navegação. */
         * {
             margin: 0;
             padding: 0;
