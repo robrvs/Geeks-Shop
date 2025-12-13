@@ -274,16 +274,16 @@
             transition: all 0.3s;
             margin-top: 15px;
         }
-        /* Estilização dos Botões Adicionar ao Carrinho */
+        /* Estilização do Botão "Adicionar ao Carrinho". Ele move o botão apenas no eixo vertical (Y) */
         .botao-comprar:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(233, 69, 96, 0.4);
         }
-
+        /* Estilização do Botão "Adicionar ao Carrinho". cria um efeito visual quando for pressionado ou "clicado para baixo" na superfície da página. */
         .botao-comprar:active {
             transform: translateY(0);
         }
-
+        /* Estilização as Formas de Pagamentos nos Cards dos Produtos. */
         .pagto {
             background: rgba(15, 52, 96, 0.05);
             padding: 15px;
@@ -291,13 +291,13 @@
             margin-top: 15px;
             border-left: 4px solid #0f3460;
         }
-
+        /* Estilização do Título "Formas de Pagamento:". */
         .pagto h4 {
             color: #0f3460;
             margin-bottom: 8px;
             font-size: 14px;
         }
-
+        /* Estilização do Título "Formas de Pagamento:". */
         .pagto ul {
             list-style: none;
             padding-left: 0;
