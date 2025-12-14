@@ -83,7 +83,7 @@
             color: #e94560;
             background: rgba(233, 69, 96, 0.1);
         }
-        /* Estilização dos Botões de Autenticação na Barra de Navegação(Login / Cadastrar) */
+        /* Estilização dos Botões de Autenticação na Barra de Navegação(Login / Cadastrar). */
         .botao-autenticacao {
             display: flex;
             gap: 15px;
@@ -120,7 +120,7 @@
             box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
         }
 
-        /* Header com slogan */
+        /* Header com slogan. */
         header {
             background: linear-gradient(135deg, #0f3460 0%, #533483 100%);
             padding: 40px 0;
@@ -140,13 +140,13 @@
             color: #e94560;
         }
 
-        /* Container principal */
+        /* Container principal. */
         .container {
             max-width: 1400px;
             margin: 40px auto;
             padding: 0 30px;
         }
-        /* Estilização da Classe que Agrupa Todos os Produtos em Cards */
+        /* Estilização da Classe que Agrupa Todos os Produtos em Cards. */
         .produtos {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -209,49 +209,49 @@
             margin-bottom: 15px;
             color: #0f3460;
         }
-
+        /* Estilização das Estrelas de Avaliação e Pontuação de Avaliações. */
         .avaliacao {
             display: flex;
             align-items: center;
             gap: 8px;
             margin-bottom: 15px;
         }
-        /* Estilização das Estrelas das Avaliações */
+        /* Estilização das Estrelas de Avaliação. */
         .estrelas {
             color: #ffa500;
             font-size: 18px;
             letter-spacing: 2px;
         }
-        /* Estilização da Pontuação das Estrelas e Contagem das Avaliações */
+        /* Estilização da Pontuação de Avaliações. */
         .contar-avaliacao {
             color: #666;
             font-size: 14px;
         }
-        /* Descrição dos Produtos nos Cards */
+        /* Descrição dos Produtos nos Cards. */
         .info-produto {
             margin: 15px 0;
             line-height: 1.6;
             color: #555;
             font-size: 14px;
         }
-        /* Estilização dos Preços dos Produtos nos Cards */
+        /* Estilização dos Preços dos Produtos nos Cards. */
         .secao-preco {
             margin: 20px 0;
         }
-        /* Estilização dos Preços Antigos dos Produtos nos Cards */
+        /* Estilização dos Preços Antigos dos Produtos nos Cards. */
         .preco-antigo {
             color: #999;
             text-decoration: line-through;
             font-size: 16px;
             margin-right: 10px;
         }
-        /* Estilização dos Preços Atuais dos Produtos nos Cards */
+        /* Estilização dos Preços Atuais dos Produtos nos Cards. */
         .preco-atual {
             font-size: 32px;
             color: #e94560;
             font-weight: bold;
         }
-        /* Estilização das Quantidades dos Produtos nos Cards */
+        /* Estilização das Quantidades dos Produtos nos Cards. */
         .quant {
             background: #4ecdc4;
             color: white;
@@ -261,7 +261,7 @@
             font-size: 13px;
             margin: 10px 0;
         }
-        /* Estilização dos Botões Adicionar ao Carrinho */
+        /* Estilização dos Botões Adicionar ao Carrinho. */
         .botao-comprar {
             width: 100%;
             padding: 15px;
@@ -275,7 +275,7 @@
             transition: all 0.3s;
             margin-top: 15px;
         }
-        /* Estilização do Botão "Adicionar ao Carrinho". Ele move o botão apenas no eixo vertical (Y) */
+        /* Estilização do Botão "Adicionar ao Carrinho". Ele move o botão apenas no eixo vertical (Y). */
         .botao-comprar:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(233, 69, 96, 0.4);
