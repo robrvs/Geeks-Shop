@@ -83,8 +83,8 @@
             color: #e94560;
             background: rgba(233, 69, 96, 0.1);
         }
-
-        .botao-auth {
+        /* Estilização dos Botões de Autenticação na Barra de Navegação(Login / Cadastrar) */
+        .botao-autenticacao {
             display: flex;
             gap: 15px;
         }
@@ -98,7 +98,7 @@
             cursor: pointer;
             transition: all 0.3s;
         }
-
+        /* Estilização do Botão de (Login) na Barra de Navegação. */
         .botao-login {
             background: transparent;
             color: #e94560;
@@ -109,7 +109,7 @@
             background: #e94560;
             color: #fff;
         }
-
+        /* Estilização do Botão de (Cadastrar) na Barra de Navegação. */
         .botao-cadastrar {
             background: linear-gradient(45deg, #e94560, #533483);
             color: #fff;
@@ -146,8 +146,8 @@
             margin: 40px auto;
             padding: 0 30px;
         }
-
-        .products {
+        /* Estilização da Classe que Agrupa Todos os Produtos em Cards */
+        .produtos {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 35px;
