@@ -340,7 +340,7 @@
                 flex-wrap: wrap;
             }
             
-            .products {
+            .produtos {
                 grid-template-columns: 1fr;
             }
         }
