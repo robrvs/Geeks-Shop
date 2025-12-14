@@ -336,11 +336,11 @@
                 display: none;
             }
             
-            .navbar-content {
+        .navbar-content {
                 flex-wrap: wrap;
             }
-            
-            .produtos {
+        /* Estilização da Classe Produtos e Cria os Grids em Colunas em Forma de Cards. */
+        .produtos {
                 grid-template-columns: 1fr;
             }
         }
