@@ -209,7 +209,7 @@
             margin-bottom: 15px;
             color: #0f3460;
         }
-        /* Estilização das Estrelas de Avaliação e Pontuação de Avaliações. */
+        /* Estilização das Estrelas e Pontuação das Avaliações. */
         .avaliacao {
             display: flex;
             align-items: center;
@@ -317,20 +317,20 @@
             margin-right: 5px;
         }
 
-        /* Footer */
+        /* Estilização do Rodapé da Página. */
         footer {
             background: #0f3460;
             text-align: center;
             padding: 30px;
             margin-top: 60px;
         }
-
+        /* Estilização das TAGs H1 do Rodapé da Página. */
         footer p {
             color: #e94560;
-            margin: 5px 0;
+            margin: 5px 0; 
         }
 
-        /* Responsividade */
+        /* Estilização da Responsividade que será aplicada quando a Largura da Tela for Igual ou Menor que 768*/
         @media (max-width: 768px) {
             .nav-menu {
                 display: none;
